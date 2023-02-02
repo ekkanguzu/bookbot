@@ -45,6 +45,7 @@ def main():
     print(f'--- Begin report of {book_path} ---')
     print(f'{num_words} found in the document')
     print()
+    print()
 
     for item in character_sorted_list:
         if item['char'].isalpha() != True:
